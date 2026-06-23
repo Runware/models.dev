@@ -1,0 +1,22 @@
+name = "Grok 4.3"
+attachment = false
+reasoning = true
+tool_call = true
+structured_output = true
+release_date = "2026-05-22"
+last_updated = "2026-05-22"
+open_weights = false
+
+[cost]
+input = 1.25
+output = 2.5
+cache_read = 0.2
+
+[limit]
+context = 1048576
+input = 1048576
+output = 131072
+
+[modalities]
+input = ["text"]
+output = ["text"]

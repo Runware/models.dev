@@ -1,0 +1,23 @@
+name = "anthropic-claude-fable-5"
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+release_date = "2026-06-12"
+last_updated = "2026-06-12"
+open_weights = false
+
+[cost]
+input = 10.0
+output = 50.0
+cache_read = 1.0
+cache_write = 12.5
+
+[limit]
+context = 1000000
+input = 1000000
+output = 128000
+
+[modalities]
+input = ["text", "image", "pdf"]
+output = ["text"]
