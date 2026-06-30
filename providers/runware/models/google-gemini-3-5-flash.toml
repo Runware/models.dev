@@ -1,22 +1,6 @@
-name = "google-gemini-3-5-flash"
-attachment = true
-reasoning = true
-tool_call = true
-structured_output = true
-release_date = "2026-05-19"
-last_updated = "2026-05-19"
-open_weights = false
+base_model = "google/gemini-3.5-flash"
 
 [cost]
 input = 1.5
-output = 9.0
+output = 9
 cache_read = 0.15
-
-[limit]
-context = 1048576
-input = 1048576
-output = 65536
-
-[modalities]
-input = ["text", "image", "video", "audio", "pdf"]
-output = ["text"]

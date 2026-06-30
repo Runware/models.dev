@@ -1,23 +1,10 @@
-name = "Claude Sonnet 4.6"
-attachment = true
-reasoning = true
-tool_call = true
-structured_output = true
-release_date = "2026-05-05"
-last_updated = "2026-05-05"
-open_weights = false
+base_model = "anthropic/claude-sonnet-4-6"
 
 [cost]
-input = 3.0
-output = 15.0
+input = 3
+output = 15
 cache_read = 0.3
 cache_write = 3.75
 
 [limit]
-context = 1000000
-input = 1000000
-output = 64000
-
-[modalities]
-input = ["text", "image", "pdf"]
-output = ["text"]
+output = 128000

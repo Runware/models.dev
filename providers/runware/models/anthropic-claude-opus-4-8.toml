@@ -1,23 +1,7 @@
-name = "Claude Opus 4.8"
-attachment = true
-reasoning = true
-tool_call = true
-structured_output = true
-release_date = "2026-05-29"
-last_updated = "2026-05-29"
-open_weights = false
+base_model = "anthropic/claude-opus-4-8"
 
 [cost]
-input = 5.0
-output = 25.0
+input = 5
+output = 25
 cache_read = 0.5
 cache_write = 6.25
-
-[limit]
-context = 1000000
-input = 1000000
-output = 128000
-
-[modalities]
-input = ["text", "image", "pdf"]
-output = ["text"]

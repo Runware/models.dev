@@ -1,22 +1,6 @@
-name = "Google Gemini 3.1 Flash Lite"
-attachment = true
-reasoning = true
-tool_call = true
-structured_output = true
-release_date = "2026-03-04"
-last_updated = "2026-03-04"
-open_weights = false
+base_model = "google/gemini-3.1-flash-lite"
 
 [cost]
 input = 0.25
 output = 1.5
 cache_read = 0.025
-
-[limit]
-context = 1048576
-input = 1048576
-output = 65536
-
-[modalities]
-input = ["text", "image", "video", "audio", "pdf"]
-output = ["text"]

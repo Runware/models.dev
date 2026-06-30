@@ -1,11 +1,4 @@
-name = "Qwen3.5-397B"
-attachment = false
-reasoning = true
-tool_call = true
-structured_output = true
-release_date = "2026-04-10"
-last_updated = "2026-04-10"
-open_weights = true
+base_model = "alibaba/qwen3.5-397b-a17b"
 
 [cost]
 input = 0.327
@@ -13,10 +6,7 @@ output = 1.989
 cache_read = 0.05
 
 [limit]
-context = 131072
-input = 131072
 output = 128000
 
 [modalities]
-input = ["text"]
-output = ["text"]
+input = ["text", "image"]

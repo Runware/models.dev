@@ -1,11 +1,4 @@
-name = "DeepSeek-V4-Flash"
-attachment = false
-reasoning = true
-tool_call = true
-structured_output = true
-release_date = "2026-05-15"
-last_updated = "2026-05-15"
-open_weights = true
+base_model = "deepseek/deepseek-v4-flash"
 
 [cost]
 input = 0.076
@@ -14,9 +7,3 @@ cache_read = 0.014
 
 [limit]
 context = 1048576
-input = 1048576
-output = 384000
-
-[modalities]
-input = ["text"]
-output = ["text"]
